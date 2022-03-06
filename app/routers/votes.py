@@ -1,4 +1,3 @@
-from multiprocessing import synchronize
 from fastapi import Body, status, HTTPException, Depends, APIRouter
 from .. import models, schemas, oauth2
 from ..database import get_db
